@@ -292,6 +292,11 @@ position: absolute;
     }//li
   }
 }
+@media screen and (max-width: 375px) {
+  .cart-wrapper {
+    display: none;
+  }
+}
 
 // Banner Section
 .banner-row {
@@ -404,7 +409,11 @@ background: #0071e0;
     text-align: center;
   }
 }
-
+@media screen and (max-width: 375px) {
+  .banner-section {
+    padding: 25px 20px;
+  }
+}
 // Subscribe Section
 .subscribe-row {
   background-color: #323a45;
