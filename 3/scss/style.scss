@@ -370,10 +370,11 @@ text-transform: uppercase;
 
 
 // Footer Styles
-
+.footer-row {
+  background-color: $footer-bg;
+}
 .footer-wrapper {
   min-height: 90px;
-  background-color: $footer-bg;
   display: flex;
   justify-content: space-between;
   align-items: center;

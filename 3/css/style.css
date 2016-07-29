@@ -415,9 +415,12 @@ nav {
   line-height: 1.8em;
 }
 
+.footer-row {
+  background-color: #202020;
+}
+
 .footer-wrapper {
   min-height: 90px;
-  background-color: #202020;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
