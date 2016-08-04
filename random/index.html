@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Random</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+   <!-- FlexTable plugin styles -->
+    <link rel="stylesheet" type="text/css" href="flextable/src/service.dialog.jquery.css" />
+    <link rel="stylesheet" type="text/css" href="flextable/src/service.flextabledit.jquery.css" />
+
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="main-wrapper">
+    <div class="winners-row clearfix">
+        <div class="winners">Winners:
+            <ol class="winners-list"></ol>
+        </div>
+        <div class="new-winner-wrapper">
+            <button class="new-winner btn btn-primary">New Winner</button>
+        </div>
+    </div>
+    <div class="form-wrapper">
+        <form id="main-form">
+            <fieldset>
+                <legend>Registration Form</legend>
+            <ul class="form-list">
+                <li>
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" form="main-form" class="form-control" required/>
+                </li>
+
+                <li>
+                    <label for="surname">Surname: </label>
+                    <input type="text" id="surname" name="surname" form="main-form" class="form-control" required/>
+                </li>
+                
+                <li>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" form="main-form" class="form-control" required/>
+                </li>
+
+                <li>
+                    <label for="phone">Phone: </label>
+                    <input type="tel" id="phone" name="phone" form="main-form" class="form-control" required
+                            placeholder="+38(0__) ___ - ____"/>
+                </li>
+
+                <li class="submit-wrapper">
+                    <button type="submit" form="main-form" class="btn btn-success">Save</button>
+                </li>
+            </ul>
+            </fieldset>
+
+        </form>
+    </div>
+
+    <div class="table-wrapper" id="table"></div>
+</div>
+
+
+<!-- ======= JS scripts ======= -->
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Masked Input -->
+<script src="js/maskedinput.js"></script>
+
+<!-- FlexTable plugin -->
+<script src="flextable/src/service.flextabledit.jquery.min.js"></script>
+<script src="flextable/src/service.dialog.jquery.min.js"></script>
+
+<!-- Custom Scripts -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
