@@ -1,0 +1,48 @@
+// Pricing Styles
+
+.pricing-section {
+  padding: 70px 0;
+}
+
+.pricing__section--title {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.main-table,.addon-table {
+  border: 3px solid #e3e3e3;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto 80px auto;
+  font-size: 20px;
+  border-radius: 5px;
+  vertical-align: middle;
+  thead {
+    border-bottom: 3px solid #e3e3e3;
+    font-weight: 800;
+    font-size:22px;
+    background-color: #f6f6f6;
+  }
+}
+
+.pricing__section--text {
+  font-size: 18px;
+  text-align: left;
+  max-width: 600px;
+  margin: 35px auto;
+}
+
+@media all and (max-width: 600px){
+  .main-table,.addon-table {
+    font-size: 14px;
+    thead {
+      font-size: 14px;
+    }
+  }
+  .pricing-section {
+    padding: 70px 5px;
+  }
+}

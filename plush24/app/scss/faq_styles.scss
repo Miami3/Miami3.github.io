@@ -1,0 +1,71 @@
+// FAQ styles
+
+.faq-section {
+  background-image: url(../img/faq-bg.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 30px 10px 80px 10px;
+}
+
+.faq-title {
+  font-weight: 800;
+  font-size: 50px;
+  color: #000;
+  text-align: center;
+  margin: 60px 0;
+}
+
+.panel-title {
+  a {
+    font-weight: 800;
+    font-size: 25px;
+    color: #000;
+    &:hover {
+      text-decoration: none;
+    }
+    &:focus {
+      text-decoration: none;
+    }
+  }// a
+  margin: 0 50px 0 0;
+}
+
+.panel-body {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+
+.panel {
+  border: none;
+  background-color: transparent;
+}
+
+.panel-group .panel{
+  margin: 0 0 25px 0;
+  position: relative;
+}
+
+.panel-default>.panel-heading,.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+  border: 2px solid #fff200;
+  background: transparent;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+  border-top: none;
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  background-color: #fff200;
+  width: 51px;
+  height: 51px;
+  i {
+    font-size: 40px;
+    margin: 7px 0 0 12px;
+    color: #000;
+  }
+}

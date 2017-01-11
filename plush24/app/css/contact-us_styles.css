@@ -1,0 +1,39 @@
+.contactUs-section {
+  background-image: url(../img/background_1.jpg);
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% center;
+  position: relative;
+  min-height: 395px;
+  padding: 0 10px 80px 10px;
+  text-align: center; }
+
+.contactUs__section--info {
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 25px 0 0 0;
+  color: #fff;
+  font-weight: 400; }
+
+.contactUs__section--cta {
+  display: inline-block;
+  padding: 13px 40px 12px 40px;
+  background-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  border: 1px solid #fff;
+  margin: 70px 0 0 0;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; }
+  .contactUs__section--cta:hover {
+    background-color: #262626;
+    border: 1px solid #262626;
+    text-decoration: none;
+    color: #fff; }

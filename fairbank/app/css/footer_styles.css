@@ -1,0 +1,31 @@
+footer {
+  background-color: #262626;
+  color: #fff;
+  text-align: center;
+  padding: 20px; }
+
+.back_to_top {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #2bc1c5;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+  color: #2bc1c5;
+  font-size: 24px;
+  font-weight: 300; }
+  .back_to_top:hover {
+    text-decoration: none;
+    color: #fff; }
+  .back_to_top:focus {
+    text-decoration: none;
+    color: #2bc1c5; }
+
+.footer_copy {
+  margin: 0;
+  color: #696969;
+  font-size: 11px;
+  font-family: Raleway, sans-serif; }

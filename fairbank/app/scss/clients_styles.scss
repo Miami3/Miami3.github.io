@@ -1,0 +1,124 @@
+@import "variables";
+// Clients Section styles
+
+#clients-carousel {
+  margin: 0;
+  background-color: $section_grey;
+  padding: 0;
+  .item {
+    height: 150px;
+  }
+  .carousel-caption {
+    height: 150px;
+    text-shadow: none;
+    right: 10%;
+    left: 10%;
+  }
+  .carousel-control {
+    width: 7%;
+  }
+  .carousel-control.left,.carousel-control.right {
+    background-image: none;
+  }
+  .carousel-control i {
+    position: relative;
+    top: 25%;
+    color: #000;
+    font-size: 24px;
+  }
+
+
+
+
+}// End of clients carousel
+
+
+.clients__carousel--img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.clients__carousel--text {
+  font-size: 16px;
+  color: #4f4f4f;
+  font-family: $open_sans;
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px 125px;
+  text-align: left;
+}
+
+.clients__carousel--name {
+  text-align: left;
+  margin: 0 0 10px 125px;
+}
+
+.clients-position {
+  font-family: $main_font;
+  color: #3c3c3c;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+}
+
+.clients-divider {
+  font-family: $open_sans;
+  color: $nav_hover;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.clients-location {
+  font-family: $open_sans;
+  color: #5f5f5f;
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.clients__logos--item {
+  text-align: center;
+}
+
+.clients__logos--inner {
+  margin: 0 auto;
+  max-width: 160px;
+  line-height: 110px;
+}
+
+.clients__logos--img {
+  max-width: 100%;
+}
+
+@media all and (max-width: 700px){
+  #clients-carousel {
+    .item, .carousel-caption {
+      min-height: 300px;
+    }
+    .carousel-indicators {
+      left: 50%;
+      margin-left: -25px;
+      width: auto;
+    }
+  }
+  .clients__carousel--img {
+    float: none;
+    margin: 0 0 20px 0;
+  }
+  .clients__carousel--text,.clients__carousel--name {
+    text-align: left;
+    margin: 0 0 10px 0;
+  }
+}
+
+@media all and (max-width: 400px) {
+  #clients-carousel {
+    .item, .carousel-caption {
+      min-height: 375px;
+    }
+  }
+}

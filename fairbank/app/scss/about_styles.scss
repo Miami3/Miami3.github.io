@@ -1,0 +1,50 @@
+@import "variables";
+// About Us Section styles
+
+.about__items--wrapper {
+  margin: 50px 0;
+  text-align: center;
+  padding: 15px;
+}
+
+.about-inner {
+  width: 210px;
+  margin: 0 auto;
+}
+
+.about-icon {
+  i {
+    color: $nav_hover;
+    font-size: 50px;
+  }
+}
+
+.about-underscore {
+  width: 40px;
+  height: 1px;
+  background-color: #5F6872;
+  margin:15px auto 30px auto;
+}
+
+.about__item--header {
+  color: $nav_main;
+  font-family: $main_font;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;line-height: 18px;
+}
+
+.about__item--text {
+  color: #696969;
+  font-family: $main_font;
+  font-size: 13px;
+  line-height: 26px;
+}
+
+
+@media all and (max-width: 991px){
+  .about-inner {
+    margin: 0 auto 50px auto;
+  }
+}

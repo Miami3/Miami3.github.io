@@ -1,0 +1,45 @@
+@import "variables";
+// Contact Us Section styles
+
+.contactUs-section {
+  background-image: url(../img/background_1.jpg);
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: 10% center;
+  position:relative;
+  min-height:395px;
+  padding: 0 10px 80px 10px;
+  text-align: center;
+}
+
+.contactUs__section--info {
+  font-family: $main_font;
+  text-align: center;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 25px 0 0 0;
+  color: $white;
+  font-weight: 400;
+}
+
+.contactUs__section--cta {
+  display: inline-block;
+  padding: 13px 40px 12px 40px;
+  background-color: transparent;
+  color: $white;
+  text-transform: uppercase;
+  font-family: $main_font;
+  font-size: 12px;
+  border: 1px solid $white;
+  margin: 70px 0 0 0;
+  transition: all 0.2s ease-in;
+  &:hover {
+    background-color: $nav_main;
+    border: 1px solid $nav_main;
+    text-decoration: none;
+    color: $white;
+  }
+}

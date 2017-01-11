@@ -1,0 +1,106 @@
+.case-study__section--title {
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #696969;
+  text-align: center;
+  margin: 100px 0 20px 0; }
+
+.case-study__items--wrapper {
+  margin: 60px 0; }
+
+.case-study__item--inner {
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto; }
+
+.case-study__item--mask {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+
+.case-study__item--cta-wrapper {
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -90px;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in; }
+
+.one-case {
+  margin: -20px 0 0 -90px; }
+
+.case-study__item--cta {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  padding: 12px 0;
+  width: 180px;
+  display: block;
+  text-align: center;
+  margin: 0 auto 15px auto;
+  background-color: rgba(15, 15, 15, 0.5);
+  border: 2px solid #2bc1c5;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  position: relative; }
+  .case-study__item--cta:hover {
+    background-color: #2bc1c5;
+    text-decoration: none;
+    color: #fff; }
+  .case-study__item--cta:focus {
+    color: #fff;
+    text-decoration: none; }
+
+.case-study__item--image {
+  width: 100%;
+  height: auto; }
+
+.case-study__image--wrapper {
+  position: relative; }
+  .case-study__image--wrapper:hover .case-study__item--mask {
+    opacity: 1; }
+  .case-study__image--wrapper:hover .case-study__item--cta-wrapper {
+    opacity: 1;
+    z-index: 5; }
+  .case-study__image--wrapper:hover {
+    cursor: pointer; }
+
+.case-study__item--subtitle {
+  font-family: Open Sans, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  color: #696969;
+  font-size: 13px;
+  letter-spacing: 1px; }
+
+.case-study__item--title {
+  color: #262626;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  margin: 0 0 12px 0; }
+
+.case-study__item--text {
+  font-size: 13px;
+  color: #696969;
+  line-height: 21px;
+  margin: 0 0 12px 0;
+  padding: 12px 0 0 0;
+  border-top: 1px solid #e1e1e1; }
+
+@media all and (max-width: 992px) {
+  .case-study__item {
+    margin: 0 0 50px 0; } }

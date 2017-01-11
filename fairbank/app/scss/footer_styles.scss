@@ -1,0 +1,38 @@
+@import "variables";
+// Footer styles
+
+footer {
+  background-color: $nav_main;
+  color: $white;
+  text-align: center;
+  padding: 20px;
+}
+
+.back_to_top {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid $nav_hover;
+  transform: rotate(90deg);
+  color: $nav_hover;
+  font-size: 24px;
+  font-weight: 300;
+  &:hover {
+    text-decoration: none;
+    color: $white;
+  }
+  &:focus {
+    text-decoration: none;
+    color: $nav_hover;
+  }
+}
+
+.footer_copy {
+  margin: 0;
+  color: $font_grey;
+  font-size: 11px;
+  font-family: $main_font;
+}
+

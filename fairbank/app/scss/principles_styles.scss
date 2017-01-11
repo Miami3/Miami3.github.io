@@ -1,0 +1,93 @@
+@import "variables";
+// Principles Section styles
+
+.principles-section {
+  margin: 50px 0;
+  padding: 0 0 0 37px;
+}
+
+.principles__item--inner {
+  max-width: 310px;
+}
+
+.principles__item--title {
+  line-height: 22px;
+  font-size: 18px;
+  color: $nav_main;
+  font-weight: 500;
+  margin: 0;
+}
+
+.principles__item--divider {
+  width: 45px;
+  border-bottom: 1px solid $nav_main;
+  margin: 12px 0 18px 0;
+}
+
+.principles__item--text {
+  font-size: 13px;
+  color: $font_grey;
+  line-height: 21px;
+  margin: 0 0 24px 0;
+}
+
+.principles__meters--title {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+  color: $nav_main;
+  span {
+    color: $nav_hover;
+    font-weight: 600;
+  }
+}
+
+.principles__meter {
+  width: 96%;
+  border: 1px solid $nav_main;
+  padding: 3px;
+}
+.meter__value {
+  height: 8px;
+  background-color: #adadad;
+}
+.meter__value[data-value="87"] {
+  width: 87%;
+}
+.meter__value[data-value="83"] {
+  width: 83%;
+}
+.meter__value[data-value="85"] {
+  width: 85%;
+}
+
+.principles__meters--wrapper {
+  margin: 0 0 24px 0;
+}
+
+.principles__item--cta {
+  border: 1px solid $nav_hover;
+  text-transform: uppercase;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 500;
+  color: $nav_main;
+  padding: 13px 25px;
+  transition: all 0.2s ease-in;
+  &:hover {
+    background-color: $nav_hover;
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+
+@media all and (max-width: 991px){
+  .principles-section {
+    padding: 10px;
+  }
+  .principles__item--inner {
+    margin: 0 auto;
+    padding: 0 0 60px 0;
+  }
+}

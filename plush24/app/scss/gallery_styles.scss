@@ -1,0 +1,160 @@
+// Gallery Section Styles
+
+.gallery-section {
+  padding: 50px 10px;
+  background-color: #ededed;
+  margin: 0 0 100px 0;
+}
+
+.gallery-title {
+  text-align: center;
+  color: #000;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.gallery-subtitle {
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  margin: 50px auto 80px auto;
+  max-width: 600px;
+  font-weight: 600;
+  span  {
+    font-size: 24px;
+    line-height: 2;
+  }
+}
+
+.gallery-cta {
+  border: 2px solid #000;
+  font-size: 20px;
+  font-weight: 800;
+  color: #000;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin: 70px 0 25px 0;
+  display: inline-block;
+  transition: all 0.1s ease-in;
+  &:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+  &:focus {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.gallery__section--divider {
+  margin: 240px 0 0 0;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.carousel-indicators {
+  width: 100%;
+  bottom: -200px;
+  left: 0;
+  margin: 0;
+}
+
+.carousel-indicators li {
+  width: 160px;
+  height: auto;
+  text-indent: 0;
+  margin: 10px;
+  img {
+    width: 160px;
+    height: auto;
+  }
+}
+
+.carousel-indicators .active {
+  width: 160px;
+  height: auto;
+  margin: 10px;
+  img {
+    border: 2px solid #f69679;
+    border-radius: 5px;
+  }
+}
+
+.carousel-inner>.item {
+  text-align: center;
+}
+
+.carousel-inner>.item>img {
+  width: 867px;
+  margin: 0 auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  opacity: 1;
+}
+
+.gallery-controls {
+  position: absolute;
+  top: 50%;
+  margin: -30px 0 0 0;
+}
+.gallery-controls.left {
+  left: 5px;
+}
+.gallery-controls.right {
+  right: 5px;
+}
+
+@media all and (max-width: 1150px){
+  .carousel-indicators li {
+    width: 80px;
+    img {
+      width: 80px;
+    }
+  }
+  .carousel-indicators .active {
+    width: 80px;
+  }
+  .carousel-indicators {
+    bottom: -100px;
+  }
+  .gallery__section--divider {
+    margin: 150px 0 0 0;
+  }
+  .carousel-inner>.item>img {
+    max-width: 600px;
+  }
+}
+
+@media all and (max-width: 800px){
+  .carousel-inner>.item>img {
+    max-width: 100%;
+  }
+  .gallery-controls {
+    width: 30px;
+    margin: -15px 0 0 0;
+  }
+  .carousel-indicators li {
+    width: 40px;
+    margin: 2px;
+    img {
+      width: 40px;
+    }
+  }
+  .carousel-indicators .active {
+    margin: 2px;
+    width: 40px;
+  }
+  .carousel-indicators {
+    bottom: -70px;
+  }
+  .gallery__section--divider {
+    margin: 120px 0 50px 0;
+  }
+  .gallery-cta {
+    margin: 10px 0 25px 0;
+  }
+}
+

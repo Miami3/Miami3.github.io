@@ -1,0 +1,60 @@
+.newsletter-section {
+  background-image: url(../img/slider_1.jpg);
+  background-attachment: fixed;
+  background-origin: initial;
+  background-clip: initial;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% center;
+  position: relative;
+  min-height: 355px;
+  padding: 50px;
+  text-align: left; }
+  .newsletter-section .g__section--intro {
+    color: #fff; }
+
+.newsletter__section--mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.23); }
+
+.newsletter__section--wrapper {
+  position: relative;
+  z-index: 1; }
+
+#newsletter {
+  margin: 35px auto;
+  max-width: 800px;
+  text-align: center; }
+
+.newsletter-field {
+  width: 32%;
+  padding: 10px;
+  border: none; }
+
+.newsletter-submit {
+  background-color: #262626;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  border: none;
+  margin: 35px 0 0 0;
+  letter-spacing: 1px;
+  padding: 12px 20px;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  font-weight: 500; }
+  .newsletter-submit:hover {
+    background-color: #2bc1c5;
+    text-decoration: none; }
+
+@media all and (max-width: 675px) {
+  .newsletter-field {
+    width: 100%;
+    margin: 0 0 10px 0; }
+  .newsletter-section {
+    padding: 20px; } }
