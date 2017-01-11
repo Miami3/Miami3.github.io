@@ -1,1 +1,7 @@
-# Created by .ignore support plugin (hsz.mobi)
+*/node_modules
+.idea/copyright/
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/Miami3.github.io.iml
+.idea/modules.xml
