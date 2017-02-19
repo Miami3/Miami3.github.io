@@ -1,0 +1,173 @@
+.second__section {
+  display: none; }
+
+.second__section {
+  width: 50%;
+  height: auto;
+  padding: 90px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.s__section--logo {
+  width: 100%;
+  text-align: center; }
+
+.s__section--logo-img {
+  width: 100%;
+  max-width: 729px;
+  height: auto; }
+
+.baes__list {
+  padding: 0;
+  margin: 100px 0;
+  list-style: none;
+  max-width: 1000px; }
+  .baes__list li {
+    margin: 0 0 40px 0;
+    font-size: 32px; }
+  .baes__list img {
+    display: inline-block;
+    margin: 0 35px 0 0;
+    vertical-align: middle; }
+  .baes__list p {
+    display: inline-block;
+    width: -webkit-calc(100% - 180px);
+    width: calc(100% - 180px);
+    vertical-align: middle; }
+
+.share__facebook {
+  display: inline-block;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  background-color: #3c419f;
+  width: 46%;
+  height: 130px;
+  line-height: 130px;
+  text-decoration: none;
+  border: 10px solid #3c419f;
+  -webkit-border-radius: 150px;
+          border-radius: 150px;
+  color: #fff;
+  margin: 0 auto 50px auto;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+  .share__facebook:hover {
+    cursor: pointer;
+    color: #3c419f;
+    background-color: #fff; }
+
+@media all and (max-width: 3000px) {
+  .second__section {
+    padding: 40px; }
+  .s__section--logo-img {
+    max-width: 400px; }
+  .baes__list {
+    margin: 20px 0;
+    max-width: 750px; }
+    .baes__list li {
+      margin: 0 0 10px 0;
+      font-size: 20px; }
+    .baes__list img {
+      max-width: 80px; }
+  .share__facebook {
+    height: 70px;
+    line-height: 70px;
+    font-size: 26px;
+    margin: 0 auto 20px auto;
+    border: 5px solid #3c419f; }
+    .share__facebook:hover {
+      border: 5px solid #3c419f; } }
+
+@media all and (max-width: 2000px) {
+  .second__section {
+    padding: 35px; }
+  .s__section--logo-img {
+    max-width: 250px; }
+  .baes__list {
+    margin: 15px 0;
+    max-width: 650px; }
+    .baes__list li {
+      margin: 0 0 10px 0;
+      font-size: 18px; }
+    .baes__list img {
+      max-width: 60px;
+      margin: 0 20px 0 0; }
+    .baes__list p {
+      display: inline-block;
+      width: -webkit-calc(100% - 100px);
+      width: calc(100% - 100px); }
+  .share__facebook {
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px; } }
+
+@media all and (max-width: 1600px) {
+  .s__section--logo-img {
+    max-width: 250px; }
+  .baes__list {
+    margin: 15px 0;
+    max-width: 650px; }
+    .baes__list li {
+      margin: 0 0 10px 0;
+      font-size: 18px; }
+    .baes__list img {
+      max-width: 55px; }
+    .baes__list p {
+      font-size: 16px;
+      margin: 0; }
+  .share__facebook {
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    border: 2px solid #3c419f;
+    margin: 0 auto 5px auto; }
+    .share__facebook:hover {
+      border: 2px solid #3c419f; } }
+
+@media all and (max-width: 1279px) {
+  .second__section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px; }
+  .s__section--logo-img {
+    max-width: 200px; }
+  .baes__list {
+    margin: 10px 0;
+    max-width: 650px; }
+    .baes__list li {
+      margin: 0 0 10px 0; }
+    .baes__list img {
+      max-width: 50px; }
+    .baes__list p {
+      font-size: 14px;
+      width: -webkit-calc(100% - 80px);
+      width: calc(100% - 80px); }
+  .share__facebook {
+    width: 50%; } }
+
+@media all and (max-width: 767px) {
+  .second__section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0; }
+  .baes__list img {
+    max-width: 40px;
+    margin: 0 10px 0 0; }
+  .baes__list p {
+    font-size: 13px;
+    width: -webkit-calc(100% - 55px);
+    width: calc(100% - 55px); }
+  .share__facebook {
+    width: 80%; } }

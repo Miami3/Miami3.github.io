@@ -1,0 +1,192 @@
+.third__section {
+  display: none;
+}
+
+.third__section {
+  width: 100%;
+  height: auto;
+  padding: 90px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.t__section--logo {
+  text-align: center;
+}
+
+.t__section--logo-img {
+  width: 100%;
+  max-width: 315px;
+  margin: 0 0 200px 0;
+}
+
+.thanks__text {
+  font-weight: 700;
+  font-size: 120px;
+  text-align: center;
+  max-width: 1250px;
+  margin: 0 0 50px 0;
+}
+
+.winner__text {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+.visit__button {
+  display: block;
+  margin: 90px auto 190px auto;
+  height: 130px;
+  line-height: 130px;
+  text-align: center;
+  width: 30%;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  border: 10px solid #bd273b;
+  border-radius: 130px;
+  background-color: #bd273b;
+  transition: all 0.4s ease;
+  &:hover {
+    color: #bd273b;
+    background-color: #fff;
+  }
+}
+
+.t__section--happy {
+  text-align: center;
+  transform: rotate(-5deg);
+  margin: 60px 0 100px 0;
+}
+
+@media all and (max-width: 3000px){
+  .third__section {
+    padding: 50px;
+  }
+  .t__section--logo-img {
+    margin: 0 0 100px 0;
+  }
+  .thanks__text {
+    font-size: 60px;
+    max-width: 900px;
+    margin: 0 0 30px 0;
+  }
+  .t__section--happy-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+  }
+  .winner__text {
+    font-size: 30px;
+  }
+  .visit__button {
+    margin: 60px auto 90px auto;
+    width: 40%;
+    font-size: 28px;
+    height: 70px;
+    line-height: 70px;
+    border: 5px solid #bd273b;
+  }
+  .t__section--happy {
+    margin: 20px 0 50px 0;
+  }
+}
+
+@media all and (max-width: 2000px){
+  .third__section {
+    padding: 30px;
+  }
+  .t__section--logo-img {
+    margin: 0 0 70px 0;
+  }
+  .thanks__text {
+    font-size: 40px;
+    max-width: 700px;
+    margin: 0 0 20px 0;
+  }
+  .t__section--happy-img {
+    max-width: 400px;
+  }
+  .winner__text {
+    font-size: 26px;
+  }
+  .visit__button {
+    margin: 60px auto 90px auto;
+    width: 40%;
+    font-size: 22px;
+    height: 50px;
+    line-height: 50px;
+    border: 3px solid #bd273b;
+  }
+  .t__section--happy {
+    margin: 10px 0 40px 0;
+  }
+}
+
+@media all and (max-width: 1600px){
+  .third__section {
+    padding: 25px;
+  }
+  .t__section--logo-img {
+    max-width: 150px;
+    margin: 0 0 30px 0;
+  }
+  .thanks__text {
+    font-size: 36px;
+    max-width: 700px;
+    margin: 0 0 10px 0;
+  }
+  .t__section--happy-img {
+    max-width: 300px;
+  }
+  .winner__text {
+    font-size: 20px;
+  }
+  .visit__button {
+    margin: 30px auto 50px auto;
+    width: 44%;
+    max-width: 500px;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    border: 3px solid #bd273b;
+  }
+  .t__section--happy {
+    margin: 10px 0;
+  }
+}
+
+@media all and (max-width: 1279px){
+  .third__section {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .thanks__text {
+    font-size: 22px;
+  }
+  .winner__text {
+    font-size: 14px;
+  }
+  .visit__button {
+    margin: 30px auto 50px auto;
+    width: 90%;
+    max-width: 400px;
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 767px){
+  .third__section {
+    padding: 25px 10px;
+  }
+  .third__section {
+    width: 94%;
+  }
+  .visit__button {
+    width: 96%;
+    font-size: 12px;
+  }
+}

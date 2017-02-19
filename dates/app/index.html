@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta property="og:url" content="http://www.your-domain.com/your-page.html">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TEST">
+    <meta property="og:description" content="TEST description with a long long long text">
+    <meta property="og:image" content="img/bg-1.jpg">
+    <title>TEST</title>
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet">
+    <!-- Custom styles-->
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+</html>
+<body>
+  <div class="main__wrapper">
+    <section class="first__section">
+      <d class="f__section--logo"><img class="f__section--logo-img" src="img/logo-st1.png" alt="logo"></d>
+      <p class="f__section--intro">On the next page, we're going to introduce you to 5 amazing potential Baes that made it to the finals.</p>
+      <div class="f__section--mans"><img class="f__section--mans-img" src="img/baes.png"></div>
+      <p class="f__section--text"><span class="white-lg">if you&nbsp;</span><span class="pale-lg">win,&nbsp;</span>you'll pick the bae you like most then you're both headed to a<br><span class="white-lg">free trip to&nbsp;</span><span class="pale-lg">Paris!</span></p>
+      <form class="main_form">
+        <input type="email" name="email" placeholder="Your Email" required>
+        <button class="main_form--submit" type="submit">Meet The Baes</button>
+      </form>
+      <p class="progress"> step 1/3</p>
+    </section>
+    <section class="second__section">
+      <d class="s__section--logo"><img class="s__section--logo-img" src="img/logo-st2.png" alt="logo"></d>
+      <ul class="baes__list">
+        <li><img class="baes__avatar" src="img/avatar-5.png" alt="avatar">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+        <li><img class="baes__avatar" src="img/avatar-4.png" alt="avatar">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+        <li><img class="baes__avatar" src="img/avatar-3.png" alt="avatar">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+        <li><img class="baes__avatar" src="img/avatar-2.png" alt="avatar">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+        <li><img class="baes__avatar" src="img/avatar-1.png" alt="avatar">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </li>
+      </ul><a class="share__facebook facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.nba.com%2F" target="_blank">Share on Facebook</a>
+      <p class="progress"> step 2/3</p>
+    </section>
+    <section class="third__section">
+      <div class="t__section--logo"><img class="t__section--logo-img" src="img/logo-st3.png" alt="logo"></div>
+      <h2 class="thanks__text">Thanks very much for entering and sharing!</h2>
+      <p class="winner__text">Contest winner will be announced by email and on social media in 4 weeks.</p><a class="visit__button" href="">Visit innclusive.com to plan your next travel!</a>
+      <div class="t__section--happy"><img class="t__section--happy-img" src="img/Happy-Travels.png" alt="happy travels"></div>
+      <p class="progress"> step 3/3</p>
+    </section>
+  </div>
+  <!-- jQuery-->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!-- Custom scripts-->
+  <script>
+	$(document).ready(function () {
+   // Subscribe&screen2
+   screen2();
+
+   // Share&screen3
+   screen3();
+});
+
+function screen3() {
+    $('.share__facebook').on('click',function () {
+       $('.second__section').css('display','block').slideToggle(1000);
+       $('.third__section').css('display','flex');
+       $('.main__wrapper').css('background-image','url(img/bg-3.jpg)');
+    });
+}
+
+function screen2(){
+    $('.main_form').on('submit',function(e){
+        e.preventDefault();
+        $('.first__section').slideToggle(1000);
+        $('.second__section').css('display','flex');
+        $('.main__wrapper').css('background-image','url(img/bg-2.jpg)');
+    });
+}
+  </script>
+</body>

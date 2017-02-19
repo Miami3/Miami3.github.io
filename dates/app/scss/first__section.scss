@@ -1,0 +1,193 @@
+// First Section Styles
+
+.first__section {
+  width: 50%;
+  height: auto;
+  padding: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.f__section--logo {
+  text-align: center;
+}
+
+.f__section--logo-img {
+  width: 100%;
+  max-width: 1082px;
+  height: auto;
+}
+
+.f__section--intro {
+  max-width: 850px;
+  //margin: 70px auto;
+  text-align: center;
+  font-size: 45px;
+}
+
+.f__section--mans {
+  text-align: center;
+}
+
+.f__section--mans-img {
+  width: 100%;
+  height: auto;
+  //margin: 0 0 70px 0;
+}
+
+.f__section--text {
+  text-align: center;
+  font-size: 45px;
+  max-width: 900px;
+  //margin: 0 auto 70px auto;
+  line-height: 1.2;
+}
+
+.white-lg,.pale-lg {
+  font-family: Bebas, sans-serif;
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.pale-lg {
+  color: #dbad84;
+}
+
+.main_form {
+  position: relative;
+  input {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    height: 150px;
+    border-radius: 120px 0 0 120px;
+    border: none;
+    padding: 0 50px;
+    line-height: 1;
+    vertical-align: middle;
+    display: inline-block;
+    &:focus{
+      outline: none;
+    }// focus
+  }// input
+}
+
+.main_form--submit {
+  display: inline-block;
+  margin: 0 0 0 -5px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 0 120px 120px 0;
+  height: 150px;
+  padding: 0 50px;
+  line-height: 1;
+  vertical-align: middle;
+  border: 10px solid #bd273b;
+  background-color: #bd273b;
+  transition: all 0.4s ease;
+  &:hover {
+    color: #bd273b;
+    background-color: #fff;
+    cursor: pointer;
+  }// hover
+  &:focus {
+    outline: none;
+  }// focus
+}
+
+
+@media all and (max-width: 3000px){
+  .f__section--logo-img {
+    max-width: 580px;
+  }
+  .f__section--text,.f__section--intro {
+    font-size: 30px;
+  }
+  .white-lg,.pale-lg {
+    font-size: 42px;
+  }
+  .main_form  input,.main_form--submit{
+    height: 80px;
+    font-size: 30px;
+    padding: 0 40px;
+  }
+  .main_form--submit{
+    border: 5px solid #bd273b;
+  }
+  .f__section--mans-img {
+    max-width: 380px;
+  }
+  .first__section {
+    padding: 60px;
+  }
+}
+
+@media all and (max-width: 2000px){
+  .f__section--logo-img {
+    max-width: 350px;
+  }
+  .f__section--text,.f__section--intro {
+    font-size: 20px;
+  }
+  .white-lg,.pale-lg {
+    font-size: 36px;
+  }
+  .main_form  input,.main_form--submit{
+    height: 60px;
+    font-size: 20px;
+    padding: 0 25px;
+  }
+  .main_form--submit{
+    border: 2px solid #bd273b;
+  }
+  .first__section {
+    padding: 40px;
+  }
+  .f__section--mans-img {
+    max-width: 300px;
+  }
+}
+
+@media all and (max-width: 1600px){
+  .f__section--text,.f__section--intro {
+    font-size: 18px;
+  }
+  .white-lg,.pale-lg {
+    font-size: 28px;
+  }
+}
+
+@media all and (max-width: 1279px){
+  .f__section--logo-img {
+    max-width: 300px;
+  }
+  .white-lg,.pale-lg {
+    font-size: 22px;
+  }
+  .first__section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  .main_form  input,.main_form--submit{
+    height: 40px;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  .main_form--submit{
+    border: 2px solid #bd273b;
+  }
+}
+
+@media all and (max-width: 767px){
+  .main_form  input,.main_form--submit{
+    display: block;
+    border-radius: 50px;
+  }
+  .main_form--submit {
+    margin: 10px auto;
+  }
+}
